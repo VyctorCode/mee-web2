@@ -86,10 +86,12 @@ p{
 
 
 img{
-    max-width: 80%;
+    min-width: 25px;
+    max-width: 100px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+    border-radius: 5%;
 }
 
 .flex{
