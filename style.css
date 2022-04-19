@@ -156,15 +156,25 @@ article{
     animation: colors 0s ease forwards infinite;
 }
 
+.text{
+    padding: 2%;
+    margin: 70px;
+    margin: auto;
+    border-radius: 5px;
+    animation-name: colors 15s ease infinite fill-mode;
+    box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
+    background: linear-gradient(#331dbe4f, #9198e562);
+}
+
 @keyframes colors{
    50%{
-       transform: translatey(7px);
+       transform: translatey(-7px);
    }
    0%{
        transform: translatey(0px);
    }
    50%{
-       transform: translate(-7);
+       transform: translate(7);
    }
 }
 
@@ -187,6 +197,35 @@ article{
 
 .iten5{
     margin-bottom: 50px;
+}
+
+@keyframes img{
+    50%{
+        transform: translatey(25px);
+    }
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translate(-25);
+    }
+ }
+
+.topo{
+    animation: img 2s ease forwards infinite;
+}
+.topo{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: #060126;
+    color: aliceblue;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
 }
 
 
