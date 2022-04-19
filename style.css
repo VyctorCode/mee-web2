@@ -1,0 +1,171 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #060126;
+    color: white;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+ul {
+    list-style: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu>li{
+    margin-left: 10px;
+}
+
+.menu>li>a{
+    display: block;
+    padding: 10px;
+    background: #9305F2;
+    border-radius: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.cot:hover {
+    text-decoration: underline;
+    transition: 0.5s;    
+}
+
+.flex:hover{
+    transition: 0.5s;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.iten1:hover{
+    background-color: #06012636;
+    transition: 0.5s;
+}
+.iten2:hover{
+    background-color: #06012636;
+    transition: 0.5s;
+}
+.iten3:hover{
+    background-color: #06012636;
+    transition: 0.5s;
+}
+.iten4:hover{
+    background-color: #06012636;
+    transition: 0.5s;
+}
+
+.none{
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 720
+}
+
+.flex>div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+main h3{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.none{
+    transition: 0.5s;
+}
+
+main p{
+    font-weight: bold;
+}
+
+hr{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.enter{
+    padding: 10%;
+    margin: 50px;
+    border-radius: 5px;
+    animation-name: colors 15s ease infinite fill-mode;
+    box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
+    
+    background: linear-gradient(#331dbe4f, #9198e562);
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 100%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
+
+
+
+
+.iten5{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 40px;
+    border: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 70%;
+    min-width: 65%;
+    margin: auto;
+}
+
+.iten5{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
