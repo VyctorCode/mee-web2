@@ -87,7 +87,7 @@ p{
 
 img{
     min-width: 25px;
-    max-width: 100px;
+    max-width: 185px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
@@ -135,16 +135,16 @@ hr{
 
 article{
     margin: auto;
-    margin-left: 150px;
-    margin-right: 150px;  
-    margin-bottom: 100px;
-
+    margin-left: 12px;
+    margin-right: 12px;  
+    margin-bottom: 100px;    
 }
 
 .enter{
     padding: 2%;
-    margin: 70px;
     margin: auto;
+    margin-left: 0px; 
+    margin-right: 0px;  
     border-radius: 5px;
     animation-name: colors 15s ease infinite fill-mode;
     box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
@@ -152,9 +152,7 @@ article{
     animation: colors 1s ease forwards infinite;
 }
 
-.enter:hover{
-    animation: colors 0s ease forwards infinite;
-}
+
 
 .text{
     padding: 2%;
