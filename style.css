@@ -25,15 +25,15 @@ ul {
     padding: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.menu>li{
+.menu>li {
     margin-left: 10px;
 }
 
-.menu>li>a{
+.menu>li>a {
     display: block;
     padding: 10px;
     background: #9305F2;
@@ -49,14 +49,14 @@ a {
 
 .cot:hover {
     text-decoration: underline;
-    transition: 0.5s;    
-}
-
-.flex:hover{
     transition: 0.5s;
 }
 
-p{
+.flex:hover {
+    transition: 0.5s;
+}
+
+p {
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -64,29 +64,32 @@ p{
     text-decoration: none;
 }
 
-.iten1:hover{
-    background-color: #06012636;
-    transition: 0.5s;
-}
-.iten2:hover{
-    background-color: #06012636;
-    transition: 0.5s;
-}
-.iten3:hover{
-    background-color: #06012636;
-    transition: 0.5s;
-}
-.iten4:hover{
+.iten1:hover {
     background-color: #06012636;
     transition: 0.5s;
 }
 
-.none{
+.iten2:hover {
+    background-color: #06012636;
+    transition: 0.5s;
+}
+
+.iten3:hover {
+    background-color: #06012636;
+    transition: 0.5s;
+}
+
+.iten4:hover {
+    background-color: #06012636;
+    transition: 0.5s;
+}
+
+.none {
     text-decoration: none;
 }
 
 
-img{
+img {
     min-width: 25px;
     max-width: 185px;
     display: block;
@@ -95,57 +98,70 @@ img{
     border-radius: 5%;
 }
 
-img:hover{
+.iten1:hover {
     animation: colors 0.5s ease forwards;
 }
-a:hover{
-    animation: colors 0.5s ease forwards ;
+
+.iten2:hover {
+    animation: colors 0.5s ease forwards;
 }
 
-.flex{
+.iten3:hover {
+    animation: colors 0.5s ease forwards;
+}
+
+.iten4:hover {
+    animation: colors 0.5s ease forwards;
+}
+
+a:hover {
+    animation: colors 0.5s ease forwards;
+}
+
+.flex {
     display: flex;
     flex-wrap: wrap;
     min-width: 720
 }
 
-.flex>div{
+.flex>div {
     flex: 1 1 200px;
     margin: 10px;
 }
 
-main h3{
+main h3 {
     font-family: monospace;
     font-size: 20px;
     text-align: center;
     margin-top: 70px;
 }
 
-.none{
+.none {
     transition: 0.5s;
 }
 
-main p{
+main p {
     font-weight: bold;
 }
 
-hr{
+hr {
     width: 70%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-article{
+article {
     margin: auto;
     margin-left: 12px;
-    margin-right: 12px;  
-    margin-bottom: 100px;    
+    margin-right: 12px;
+    margin-bottom: 100px;
 }
 
-.enter{
+.enter {
     padding: 2%;
     margin: auto;
-    margin-left: 0px; 
-    margin-right: 0px;  
+    margin-left: 0px;
+    margin-right: 0px;
     border-radius: 5px;
     animation-name: colors 15s ease infinite fill-mode;
     box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
@@ -155,7 +171,7 @@ article{
 
 
 
-.text{
+.text {
     padding: 2%;
     margin: 70px;
     margin: auto;
@@ -165,22 +181,24 @@ article{
     background: linear-gradient(#331dbe4f, #9198e562);
 }
 
-@keyframes colors{
-   50%{
-       transform: translatey(-7px);
-   }
-   0%{
-       transform: translatey(0px);
-   }
-   50%{
-       transform: translate(7);
-   }
+@keyframes colors {
+    50% {
+        transform: translatey(-7px);
+    }
+
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translate(7);
+    }
 }
 
 
 
 
-.iten5{
+.iten5 {
     text-align: justify;
     text-indent: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -194,31 +212,36 @@ article{
     margin: auto;
 }
 
-.iten5{
+.iten5 {
     margin-bottom: 50px;
 }
 
-@keyframes img{
-    50%{
+@keyframes img {
+    50% {
         transform: translatey(25px);
     }
-    0%{
+
+    0% {
         transform: translatey(0px);
     }
-    50%{
+
+    50% {
         transform: translate(-25);
     }
- }
+}
 
-.topo{
+.topo {
     animation: img 2s ease forwards infinite;
 }
-.topo{
+
+.topo {
     margin-bottom: 10px;
 }
 
 
-footer{
+
+
+footer {
     background-color: #060126;
     color: aliceblue;
     height: 40px;
@@ -226,9 +249,3 @@ footer{
     padding: 10px;
     font-family: monospace;
 }
-
-
-
-
-
-
