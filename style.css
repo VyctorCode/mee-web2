@@ -159,23 +159,21 @@ article{
 .enter {
     padding: 2%;
     margin: auto;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10em;
+    margin-right: 10em;
     border-radius: 5px;
     animation-name: colors 15s ease infinite fill-mode;
     box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
     background: linear-gradient(#331dbe4f, #9198e562);
-    animation: colors 1s ease forwards infinite;
+    
 }
 
 
 
 .text {
-    padding: 2%;
-    margin: 70px;
-    margin: auto;
+    margin-left: 10em;
+    margin-right: 10em;
     border-radius: 5px;
-    animation-name: colors 15s ease infinite fill-mode;
     box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
     background: linear-gradient(#331dbe4f, #9198e562);
 }
@@ -200,15 +198,13 @@ article{
 .iten5 {
     text-align: justify;
     text-indent: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     line-height: 40px;
     border: 25%;
-    margin-left: 10%;
-    margin-right: 10%;
-    max-width: 70%;
-    min-width: 65%;
-    margin: auto;
+    padding: 20px;
+    color: #3b055f;
+    text-align: center;
 }
 
 .iten5 {
@@ -228,16 +224,6 @@ article{
         transform: translate(-25);
     }
 }
-
-.topo {
-    animation: img 2s ease forwards infinite;
-}
-
-.topo {
-    margin-bottom: 10px;
-}
-
-
 
 
 footer {
