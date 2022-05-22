@@ -1,0 +1,8 @@
+.nav:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 0, 255, 0.473);
+    border-radius: 5px;
+}
+a{
+    padding: 8px;
+}

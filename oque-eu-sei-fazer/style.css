@@ -1,0 +1,30 @@
+main{
+    background-color: rgba(95, 139, 160, 0.644);
+    align-items: center;
+    border-left: 300px;
+    border-right: 300px;
+    margin: auto;
+    max-width: 800px;
+    padding: 1px;
+    padding-top: 2%;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
+}
+
+p{
+    color: rgb(2, 2, 88);
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#git{
+    color: rgb(34, 30, 30);
+    text-shadow: 5px 5px 14px rgba(4, 4, 77, 0.301) ;
+}
+
+#git:hover{
+    text-decoration: underline;
+    color: rgb(9, 66, 68);
+}

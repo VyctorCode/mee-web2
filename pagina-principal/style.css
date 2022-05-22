@@ -1,0 +1,14 @@
+header{
+    background-image: url(https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg);
+    background-size:  contain;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 230px;
+}
+
+.efect{
+    background-color: rgba(139, 139, 139, 0.39);
+    border-radius: 5px;
+    padding: 10px;
+}
+
