@@ -17,6 +17,12 @@ header {
     flex-wrap: wrap;
 }
 
+.efect{
+    background-color: rgba(139, 139, 139, 0.39);
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
 ul {
     list-style: none;
@@ -292,12 +298,11 @@ Style de Meus Projetos
     .iten5{
         font-size: 15px;
         line-height: 25px;
+        text-align: justify;
     }
     .text{
         margin: -10px;
     }
-    section > div{
-        
-    }
+   
 }
 
