@@ -1,0 +1,63 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: linear-gradient(0, #d3feff 0, #a7e9ff 16.67%, #73d1fc 33.33%, #1db8f3 50%, #009feb 66.67%, #0087e3 83.33%, #0071db 100%);
+
+    background-attachment: fixed;
+}
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWXQ86qWle5CVOBFVHrDYhdFauUKig5ayuw&usqp=CAU);
+
+    box-shadow:  inset 0px -12px 20px 0px rgba(0, 0, 0, 0.605); 
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.642);
+    padding: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);    
+}
+
+li{
+    background-color: rgba(0, 0, 0, 0.642);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px 0px;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+}
+
+main{
+    display: flex;
+}
+
+.Gosto{
+    height: 200px;
+    width: 200px;
+
+    background-color: rgb(11, 225, 21);
+    margin-top: 20px;
+    margin-left: 25px;
+
+    background-image: url(https://img.freepik.com/fotos-gratis/bicicleta-branca-em-pe-no-parque-aptidao-matinal-solidao_1153-6768.jpg?w=2000);
+    background-size: cover;
+
+    border-radius: 25px 0px;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+}
+
+.txt1{
+    width: 600px;
+    height: auto;
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.456);
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 10px;
+    border-radius: 0px 25px;
+}

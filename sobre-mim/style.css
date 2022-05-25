@@ -49,6 +49,25 @@ main>article>h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (max-width: 899px){
-    
+@media (max-width: 883px){
+    main{
+        width: auto;        
+    }
+}
+@media (max-width: 375px){
+
+    li{
+        font-size: 10px;
+    }
+    main{
+        border-radius: 0;
+    }
+    .p1{
+        font-size: 20px;
+        text-align: right;
+    }
+    .p2{
+        font-size: 15px;
+        text-indent: 10px;
+    }
 }
