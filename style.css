@@ -3,10 +3,10 @@ body {
     border: 0px;
     margin: 0px;
     padding: 0px;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #0b081f;
     color: rgb(255, 255, 255);
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -62,9 +62,7 @@ a {
 }
 
 p {
-    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     position: relative;
     text-decoration: none;
 }
@@ -91,6 +89,7 @@ p {
 
 .none {
     text-decoration: none;
+    color: #060126;
 }
 
 

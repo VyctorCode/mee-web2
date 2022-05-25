@@ -1,30 +1,140 @@
+body{
+    background-image: linear-gradient(225deg, #ff8cff 0, #ff7eff 16.67%, #cd6bff 33.33%, #8c55d8 50%, #4f3eab 66.67%, #0a2a84 83.33%, #001a61 100%);
+   
+   background-attachment: fixed;
+}
+
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr8eFlTvde36Qh3XSkTdv-tOb4mxiUYI4gpS2QaeyK_6EORPaQAKqTo75pEryTR1SX_Kw&usqp=CAU);
+    display: flex;
+    box-shadow: inset 2px -5px 11px 0px rgb(2, 15, 105);
+    position: relative;
+}
+
+header > h1{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 8px;
+    border-radius: 25px 0;
+}
+
 main{
-    background-color: rgba(95, 139, 160, 0.644);
-    align-items: center;
-    border-left: 300px;
-    border-right: 300px;
+    background-color: rgb(95, 139, 160);
     margin: auto;
+   
+    height: 600px;
+    border-radius: 50px 0px;
+    box-shadow: -12px 11px 14px 0px rgba(0, 0, 0, 0.233); 
     max-width: 800px;
-    padding: 1px;
-    padding-top: 2%;
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.233);
+    margin-top: -20px;
+    margin-bottom: -50px;
 }
 
 p{
-    color: rgb(2, 2, 88);
-    font-size: 20px;
+    color: white;
     text-align: justify;
+    padding: 10px;
     text-indent: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #git{
-    color: rgb(34, 30, 30);
-    text-shadow: 5px 5px 14px rgba(4, 4, 77, 0.301) ;
+    color: rgb(0, 255, 102);
+    text-shadow: 5px 5px 14px rgba(1, 1, 54, 0.301) ;
+    transition: 0.5s;
 }
 
 #git:hover{
-    text-decoration: underline;
     color: rgb(9, 66, 68);
+    transition: 0.5s;
+}
+
+@media (max-width: 758px){
+    
+    body{
+        width: 100vw;
+    }
+    header{
+        height: 150px;
+    }
+    header > h1{
+        font-size: 20px;
+        display: flex;
+    }
+    li{
+        padding: 20px;
+        height: 10px;
+        width: auto;
+        font-size: 15px;
+    }
+    .menu{
+       flex-direction: column;
+       margin-top: -10px;
+    }
+    main{
+        height: auto;
+        border-radius: 0px;
+    }
+    
+}
+@media (max-width: 758px){
+    main{
+        border-radius: 0px;
+        height: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    header > h1{
+       font-size: 15px;
+       margin: auto;
+    }    
+    li{
+        font-size: 10px;
+    }
+}
+@media (max-width: 414px) {
+    header > h1{
+       font-size: 15px;
+       margin: auto;
+    }    
+    li{
+        font-size: 10px;
+    }
+}
+@media (max-width: 912px) {
+   main > p{
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   main{
+       height: auto;
+   }
+}
+@media (max-width: 280px) {
+    header{
+       display: flexbox;
+       padding: 0;
+    }
+    
+    header > h1{
+       font-size: 15px;
+       margin-top: -10px;
+       margin-left: -10px;
+    }   
+    .menu{
+        justify-content: space-around;
+    } 
+    .menu > li{
+        margin-bottom: -10px;
+    }
+    main > p{
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+}
+@media (max-width: 1024px){
+    main > p{
+       text-decoration:wavy;
+    }
 }

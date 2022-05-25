@@ -7,7 +7,15 @@ header{
 }
 
 main{
-    box-shadow: inset 0px 7px 9px 3px rgba(0, 0, 0, 0.548);
+    box-shadow: inset 0px 7px 9px 0px rgba(0, 0, 0, 0.548);
+    
+}
+
+section > div{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 @media (max-width: 899px){
@@ -34,6 +42,7 @@ main{
         margin-bottom: -40px;
         margin-left: -30px;
     }
+         
     .none{
         width: 10px;
         height: 10px;
