@@ -32,29 +32,28 @@ li{
 
 main{
     display: flex;
+    margin: auto;
 }
 
-.Gosto{
-    height: 200px;
-    width: 200px;
-
-    background-color: rgb(11, 225, 21);
+.img1{
+    margin-right: 0;
+    margin-left: 15px;
     margin-top: 20px;
-    margin-left: 25px;
-
-    background-image: url(https://img.freepik.com/fotos-gratis/bicicleta-branca-em-pe-no-parque-aptidao-matinal-solidao_1153-6768.jpg?w=2000);
-    background-size: cover;
-
+    height: 200px;
+    width: 300px;
     border-radius: 25px 0px;
-    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+    display: inline-block;
+    vertical-align: top;
 }
 
 .txt1{
     width: 600px;
     height: auto;
     color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.456);
     margin-left: 25px;
+    display: inline-block;
     margin-top: 20px;
     font-size: 30px;
     line-height: 45px;
