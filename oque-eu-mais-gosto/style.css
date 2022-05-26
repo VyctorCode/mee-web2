@@ -4,11 +4,10 @@
 }
 body{
     background-image: linear-gradient(0, #d3feff 0, #a7e9ff 16.67%, #73d1fc 33.33%, #1db8f3 50%, #009feb 66.67%, #0087e3 83.33%, #0071db 100%);
-
-    background-attachment: fixed;
 }
 header{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWXQ86qWle5CVOBFVHrDYhdFauUKig5ayuw&usqp=CAU);
+    background-attachment: fixed;
 
     box-shadow:  inset 0px -12px 20px 0px rgba(0, 0, 0, 0.605);
     position: relative;
@@ -32,10 +31,18 @@ li{
     box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
 }
 
+
+
 main{
+    width: 900px;
     margin: auto;
     display: flex;
-    width: 70em;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.483);
+}
+
+div{
+    margin: 15px;
 }
 
 .img1{
@@ -47,8 +54,21 @@ main{
     border-radius: 25px 0px;
     display: inline-block;
     vertical-align: top;
-    
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
 }
+
+.img2{
+    margin-right: 0;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 0px 25px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+}
+
 
 .txt1{
     width: 600px;
@@ -64,4 +84,281 @@ main{
     padding: 10px;
     border-radius: 0px 25px;
     white-space: normal;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+    text-indent: 10px;
 }
+
+.txt2{
+    width: 600px;
+    height: auto;
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.456);
+    margin-left: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 10px;
+    border-radius: 25px 0px;
+    white-space: normal;
+    box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.605);
+    text-indent: 10px;
+}
+/* adapta a tablet*/
+@media (max-width: 900px) {
+    .img1{
+        width: 100px;
+        height: 100px;
+    }
+    .img2{
+        width: 100px;
+        height: 100px;
+    }
+    .txt1{
+        font-size: 20px;
+        width: 550px;
+        line-height: 30px;
+    }
+    .txt2{
+        font-size: 20px;
+        width: 550px;
+        line-height: 30px;
+    }
+}
+/* adapta a iPhone SE*/
+@media (max-width: 375px){
+    
+   header{
+       height: 200px;
+       display: flex;
+   }
+   header > h1{
+       font-size: 15px;
+       margin-top: 0px;
+       background-color: rgba(0, 0, 0, 0.824);
+   }
+   li{
+       font-size: 15px;
+       margin-top: 0;
+       background-color: rgba(0, 0, 0, 0.824);
+   }
+   
+    main{
+        width: auto;
+    }
+
+    .dividir{
+        padding: 25px;
+    }
+    .img1{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 0;
+        border-radius: 100px;
+    }
+    .img2{
+        width: 100px;
+        height: 100px;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 100px;
+    }
+    .txt1{
+        font-size: 15px;
+        width: 200px;
+        line-height: 30px;  
+        margin: auto;  
+        border-radius: 0px 10px 10px;    
+    }
+    .txt2{
+        font-size: 15px;
+        width: 200px;
+        line-height: 30px;
+        margin: auto;
+        border-radius: 10px 0px 10px 10px;
+    }
+
+}
+
+/* adapta pa iPhone XR*/
+
+@media (max-width: 414px){
+    
+    header{
+        height: 200px;
+        display: flex;
+    }
+    header > h1{
+        font-size: 15px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.824);
+    }
+    li{
+        font-size: 15px;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.824);
+    }
+    
+     main{
+         width: auto;
+     }
+ 
+     .dividir{
+         padding: 25px;
+     }
+     .img1{
+         width: 100px;
+         height: 100px;
+         margin-top: 0px;
+         margin-left: 0;
+         border-radius: 100px;
+     }
+     .img2{
+         width: 100px;
+         height: 100px;
+         margin-top: 0;
+         margin-right: 0;
+         border-radius: 100px;
+     }
+     .txt1{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;  
+         margin: auto;  
+         border-radius: 0px 10px 10px;    
+     }
+     .txt2{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;
+         margin: auto;
+         border-radius: 10px 0px 10px 10px;
+     }
+ 
+ }
+ /* adapta para o Galaxy S8+*/
+ @media (max-width: 360px){
+    
+    header{
+        height: 200px;
+        display: flex;
+    }
+    header > h1{
+        font-size: 15px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.824);
+    }
+    nav{
+        display: flex;
+    }
+    li{
+        font-size: 13px;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.824);
+        display: flex;
+        width: 45px;
+    }
+    
+     main{
+         width: auto;
+     }
+ 
+     .dividir{
+         padding: 25px;
+     }
+     .img1{
+         width: 100px;
+         height: 100px;
+         margin-top: 0px;
+         margin-left: 0;
+         border-radius: 100px;
+     }
+     .img2{
+         width: 100px;
+         height: 100px;
+         margin-top: 0;
+         margin-left: 0;
+         border-radius: 100px;
+     }
+     .txt1{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;  
+         margin: auto;  
+         border-radius: 0px 10px 10px;    
+     }
+     .txt2{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;
+         margin: auto;
+         border-radius: 10px 0px 10px 10px;
+     }
+ 
+ }
+
+ /* adapta para iPad Air*/
+
+ @media (max-width: 375px){
+    
+    body{
+        margin: 0;
+    }
+    header{
+        width: 100vw;
+        height: 200px;
+        display: flex;
+    }
+    header > h1{
+        font-size: 15px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.824);
+    }
+    li{
+        font-size: 15px;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.824);
+    }
+    
+     main{
+         width: auto;
+     }
+ 
+     .dividir{
+         padding: 25px;
+     }
+     .img1{
+         width: 100px;
+         height: 100px;
+         margin-top: 0px;
+         margin-left: 0;
+         border-radius: 100px;
+     }
+     .img2{
+         width: 100px;
+         height: 100px;
+         margin-top: 0;
+         margin-left: 0;
+         border-radius: 100px;
+     }
+     .txt1{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;  
+         margin: auto;  
+         border-radius: 0px 10px 10px;    
+     }
+     .txt2{
+         font-size: 15px;
+         width: 200px;
+         line-height: 30px;
+         margin: auto;
+         border-radius: 10px 0px 10px 10px;
+     }
+ 
+ }
