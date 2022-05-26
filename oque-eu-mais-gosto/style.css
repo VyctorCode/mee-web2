@@ -10,7 +10,9 @@ body{
 header{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWXQ86qWle5CVOBFVHrDYhdFauUKig5ayuw&usqp=CAU);
 
-    box-shadow:  inset 0px -12px 20px 0px rgba(0, 0, 0, 0.605); 
+    box-shadow:  inset 0px -12px 20px 0px rgba(0, 0, 0, 0.605);
+    position: relative;
+    
 }
 
 header h1{
@@ -31,8 +33,9 @@ li{
 }
 
 main{
-    display: flex;
     margin: auto;
+    display: flex;
+    width: 70em;
 }
 
 .img1{
@@ -44,6 +47,7 @@ main{
     border-radius: 25px 0px;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 .txt1{
@@ -59,4 +63,5 @@ main{
     line-height: 45px;
     padding: 10px;
     border-radius: 0px 25px;
+    white-space: normal;
 }
