@@ -1,4 +1,7 @@
-
+body{
+    background-image: radial-gradient(circle at 70.96% 13.7%, #b0e5ff 0, #6baeff 25%, #1e78f3 50%, #00459e 75%, #001a52 100%);
+    
+}
 
 header > h1{
     font-size: 40px;
@@ -10,7 +13,7 @@ header{
 }
 
 main {
-   background-color: darkslateblue;
+   background-color: rgba(71, 61, 139, 0.713);
    margin: auto;
    width: 900px;
    border-radius: 50px 0px;
