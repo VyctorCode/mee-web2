@@ -1,8 +1,47 @@
-.nav:hover{
-    text-decoration: underline;
-    background-color: rgba(0, 0, 255, 0.473);
-    border-radius: 5px;
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-a{
+
+header{
+    background-image: url(https://media.istockphoto.com/vectors/stationery-background-school-tools-seamless-pattern-art-education-vector-id1252602271?k=20&m=1252602271&s=170667a&w=0&h=YaO-h_3vEtxywiWPL1mKERnXOG6tLZ5PG0LIAPYKbiI=);
+
+    background-attachment: fixed;
+    box-shadow: inset 0px -20px 20px rgb(0 0 0 / 68%);
+}
+
+header > h1{
+    background-color: rgba(0, 0, 0, 0.663);
+    border-radius: 20px 10px;
     padding: 8px;
+    box-shadow: -8px 6px 20px rgba(0, 0, 0, 0.683);
+}
+
+li{
+    background-color: rgba(0, 0, 0, 0.663);
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px 10px;
+    box-shadow: -8px 6px 20px rgba(0, 0, 0, 0.683);
+    transition: 0.5s;
+}
+
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.798);
+    transition: 0.5s;
+}
+
+main{
+    width: 800px;
+    margin: auto;   
+    background-image: radial-gradient(circle at 84.12% 1.27%, #add9ff 0, #108af8 50%, #0045bc 100%);
+
+    border-radius: 0px 0px 15px 15px;
+    padding: 8px;
+}
+
+.artigo{
+    
 }
