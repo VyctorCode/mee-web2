@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script src="src.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
@@ -54,22 +55,51 @@
             margin-top: auto;
             border-radius: 10px;
             box-shadow: 6px 2px 16px 0px rgba(0, 0, 0, 0.709);
-            flex-wrap: nowrap;
+            flex-direction: column;
         }
 
         .titulo{
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: black;
             font-size: 65px;
+            text-align: center;
+        }
+
+        .dados{
             margin-left: auto;
             margin-right: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .top{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .dados > div{
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #nome{
+            font-size: 20px;
+        }
+
+        #senha{
+            font-size: 20px;
+            
+        }
+
+        .enter > input{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            padding: 10px;
+            cursor: pointer;
         }
 
     </style>
-    <script>
-
-
-    </script>
 </head>
 
 <body>
@@ -77,8 +107,19 @@
         <div class="titulo">
             <p>Login</p>
         </div>
-        <div>
-            <input type="text" name="" id="">
+        <div class="dados">
+            <div calss="Nome">
+                <label for="Nome" class="top">Nome</label>
+                <input type="text" name="Nome" id="nome">
+            </div>
+            <div class="senha">
+                <label for="Senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="enter">
+                <input type="button" value="Enter">
+            </div>
+            
         </div>
     </div>
 </body>
