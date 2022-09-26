@@ -6,6 +6,8 @@ function verificar() {
     
     if(nome.value.length == 0 || senha.value.length == 0){
         window.alert('Por favor, Realize seu login!')
+    }else{
+        location.href = "paginaPrincipal.html"
     }
     
 

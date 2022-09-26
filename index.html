@@ -99,6 +99,12 @@
             cursor: pointer;
         }
 
+        .paragrafo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            font-size: 20px;
+        }
+
     </style>
 </head>
 
@@ -117,9 +123,9 @@
                 <input type="password" name="senha" id="senha">
             </div>
             <div class="enter">
-                <input type="button" value="Enter" id="enter" onclick="verificar()">
+                <input type="button" value="Enter" id="enter" onclick="verificar(); return false">
             </div>
-            
+            <p class="paragrafo">Esse login pode ser o seu nome e a senha que desejar, isso foi só para aplicar oque eu estou aprendendo com Javascript!</p>
         </div>
     </div>
 </body>
