@@ -5,7 +5,7 @@ function verificar() {
     let enter = document.getElementById('enter')
     
     if(nome.value.length == 0 || senha.value.length == 0){
-        window.alert('Por favor, Realize seu login!')
+        window.alert('Por favor, Realize o seu login!')
     }else{
         location.href = "paginaPrincipal.html"
     }
