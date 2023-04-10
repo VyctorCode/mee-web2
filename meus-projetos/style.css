@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: rgba(25, 38, 116, 0.183);
+    box-shadow: inset 0px 20px 20px 0px;
 }
 
 header{
@@ -36,15 +38,20 @@ li:hover{
 main{
     width: 800px;
     margin: auto;   
-   
+    margin-top: 0;
+    padding-top: 0px;
 
     border-radius: 0px 0px 15px 15px;
-    padding: 8px;
 }
 
 .artigo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 25px;
     text-align: center;
     color: #add9ff;
+    background-color: rgb(1, 1, 53);
+    border-radius: 5px 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.246);    
 }
